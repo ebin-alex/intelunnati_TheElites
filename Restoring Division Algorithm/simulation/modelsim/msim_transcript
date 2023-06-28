@@ -1,0 +1,84 @@
+# Reading pref.tcl
+# do Rest_div_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ebina/Documents/Unnatti\ Internship/Rest\ div {C:/Users/ebina/Documents/Unnatti Internship/Rest div/Rest_div.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:23 on Jun 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ebina/Documents/Unnatti Internship/Rest div" C:/Users/ebina/Documents/Unnatti Internship/Rest div/Rest_div.v 
+# -- Compiling module Rest_div
+# 
+# Top level modules:
+# 	Rest_div
+# End time: 14:24:23 on Jun 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ebina/Documents/Unnatti\ Internship/Rest\ div {C:/Users/ebina/Documents/Unnatti Internship/Rest div/Rest_div_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:23 on Jun 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ebina/Documents/Unnatti Internship/Rest div" C:/Users/ebina/Documents/Unnatti Internship/Rest div/Rest_div_tb.v 
+# -- Compiling module Rest_div_tb
+# 
+# Top level modules:
+# 	Rest_div_tb
+# End time: 14:24:23 on Jun 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Rest_div_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Rest_div_tb 
+# Start time: 14:24:23 on Jun 23,2023
+# Loading work.Rest_div_tb
+# Loading work.Rest_div
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0X=15, Y= 8, valid=0, quot= 0, rem= 0 
+#                   30X=15, Y= 8, valid=0, quot=15, rem= 0 
+#                   40X=15, Y= 8, valid=0, quot=14, rem= 1 
+#                   50X=15, Y= 8, valid=0, quot=12, rem= 3 
+#                   60X=15, Y= 8, valid=0, quot= 8, rem= 7 
+#                   70X=15, Y= 8, valid=1, quot= 1, rem= 7 
+#                   80X=10, Y= 5, valid=0, quot= 0, rem= 0 
+#                   90X=10, Y= 5, valid=0, quot=10, rem= 0 
+#                  100X=10, Y= 5, valid=0, quot= 4, rem= 1 
+#                  110X=10, Y= 5, valid=0, quot= 8, rem= 2 
+#                  120X=10, Y= 5, valid=0, quot= 1, rem= 0 
+#                  130X=10, Y= 5, valid=1, quot= 2, rem= 0 
+#                  140X= 8, Y= 4, valid=0, quot= 0, rem= 0 
+#                  150X= 8, Y= 4, valid=0, quot= 8, rem= 0 
+#                  160X= 8, Y= 4, valid=0, quot= 0, rem= 1 
+#                  170X= 8, Y= 4, valid=0, quot= 0, rem= 2 
+#                  180X= 8, Y= 4, valid=0, quot= 1, rem= 0 
+#                  190X= 8, Y= 4, valid=1, quot= 2, rem= 0 
+#                  200X= 1, Y= 1, valid=0, quot= 0, rem= 0 
+#                  210X= 1, Y= 1, valid=0, quot= 1, rem= 0 
+#                  220X= 1, Y= 1, valid=0, quot= 2, rem= 0 
+#                  230X= 1, Y= 1, valid=0, quot= 4, rem= 0 
+#                  240X= 1, Y= 1, valid=0, quot= 8, rem= 0 
+#                  250X= 1, Y= 1, valid=1, quot= 1, rem= 0 
+#                  260X=15, Y= 1, valid=0, quot= 0, rem= 0 
+#                  270X=15, Y= 1, valid=0, quot=15, rem= 0 
+#                  310X=15, Y= 1, valid=1, quot=15, rem= 0 
+#                  320X=15, Y= 2, valid=0, quot= 0, rem= 0 
+#                  330X=15, Y= 2, valid=0, quot=15, rem= 0 
+#                  340X=15, Y= 2, valid=0, quot=14, rem= 1 
+#                  350X=15, Y= 2, valid=0, quot=13, rem= 1 
+#                  360X=15, Y= 2, valid=0, quot=11, rem= 1 
+# ** Note: $finish    : C:/Users/ebina/Documents/Unnatti Internship/Rest div/Rest_div_tb.v(48)
+#    Time: 370 ps  Iteration: 2  Instance: /Rest_div_tb
+# 1
+# Break in Module Rest_div_tb at C:/Users/ebina/Documents/Unnatti Internship/Rest div/Rest_div_tb.v line 48
+# End time: 14:25:29 on Jun 23,2023, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
