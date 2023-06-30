@@ -24,8 +24,10 @@ The project was carried out by the following team members:
 
 ## Mentor
 
-We would like to express our gratitude to our mentor, Dr. P. Getzi Jeba, for providing guidance and support throughout the internship. You can reach out to Dr. Getzi Jeba at getzi@karunya.edu.
+We would like to express our gratitude to our mentors for providing guidance and support throughout the internship:
 
+- Dr. P. Getzi Jeba (Academic Mentor) - getzi@karunya.edu
+- Abhishek Nandy (Industry Mentor) - abhisheknandy@theprograms.in
 ---
 
 Please feel free to explore the repository and refer to the project documentation for more details on the implementation and usage of the division algorithms. If you have any questions or suggestions, don't hesitate to open an issue or contact any of the team members.
