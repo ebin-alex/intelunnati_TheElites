@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Wed Jun 28 19:00:36 2023
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Revision Name : newton_raphson_divider
+Top-level Entity Name : newton_raphson_divider
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Power Models : Final
+Total Thermal Power Dissipation : 420.58 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 411.23 mW
+I/O Thermal Power Dissipation : 9.35 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
