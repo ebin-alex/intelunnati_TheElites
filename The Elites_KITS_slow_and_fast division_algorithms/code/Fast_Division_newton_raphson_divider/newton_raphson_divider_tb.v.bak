@@ -1,0 +1,38 @@
+module newton_raphson_divider_tb;
+
+  reg clk;
+  reg reset;
+  reg [31:0] dividend;
+  reg [31:0] divisor;
+  wire [31:0] quotient;
+  wire done;
+
+  newton_raphson_divider dut (
+    .clk(clk),
+    .reset(reset),
+    .dividend(dividend),
+    .divisor(divisor),
+    .quotient(quotient),
+    .done(done)
+  );
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  initial begin
+    reset = 1;
+    #10 reset = 0;
+    dividend = 100;
+    divisor = 10;
+  end
+
+  always @(posedge clk) begin
+    if (done) begin
+      $display("The quotient is %d", quotient);
+      $finish;
+    end
+  end
+
+endmodule

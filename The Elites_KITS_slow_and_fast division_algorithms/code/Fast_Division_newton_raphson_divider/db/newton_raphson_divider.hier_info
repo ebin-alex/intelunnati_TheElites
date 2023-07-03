@@ -1,0 +1,35 @@
+|newton_raphson_divider
+dividend[0] => Add1.IN8
+dividend[1] => Add1.IN7
+dividend[2] => Add1.IN6
+dividend[3] => Add1.IN5
+divisor[0] => Mult0.IN7
+divisor[0] => Mult1.IN3
+divisor[1] => Mult0.IN6
+divisor[1] => Mult1.IN2
+divisor[2] => Mult0.IN5
+divisor[2] => Mult1.IN1
+divisor[3] => Mult0.IN4
+divisor[3] => Mult1.IN0
+quotient[0] << quotient[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+quotient[1] << quotient[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+quotient[2] << quotient[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+quotient[3] << quotient[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+remainder[0] << remainder[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+remainder[1] << remainder[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+remainder[2] << remainder[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+remainder[3] << remainder[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => remainder[0]~reg0.CLK
+clk => remainder[1]~reg0.CLK
+clk => remainder[2]~reg0.CLK
+clk => remainder[3]~reg0.CLK
+clk => quotient[0]~reg0.CLK
+clk => quotient[1]~reg0.CLK
+clk => quotient[2]~reg0.CLK
+clk => quotient[3]~reg0.CLK
+clk => x[0].CLK
+clk => x[1].CLK
+clk => x[2].CLK
+clk => x[3].CLK
+
+

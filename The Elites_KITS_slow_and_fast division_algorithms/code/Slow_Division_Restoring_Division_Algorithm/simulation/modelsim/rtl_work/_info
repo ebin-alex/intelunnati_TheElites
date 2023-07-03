@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/simulation/modelsim
+vRest_div
+Z1 !s110 1688385939
+!i10b 1
+!s100 DkR<34ViJNMjbj0P;_a531
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG_[LI_XhjPfUf2fMEP40[0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1688123865
+8C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div.v
+FC:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div.v
+!i122 0
+L0 1 67
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1688385939.000000
+!s107 C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm|C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm
+Z9 tCvgOpt 0
+n@rest_div
+vRest_div_tb
+R1
+!i10b 1
+!s100 onbP?ij_oZ^UgOCR6==Oj3
+R2
+IlKEi@1iz:I=bNC0k90Nfd0
+R3
+R0
+R4
+8C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div_tb.v
+FC:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div_tb.v
+!i122 1
+L0 1 50
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm|C:/Users/ebina/Desktop/GIthub/intelunnati_TheElites/shot/code/Slow_Division_Restoring_Division_Algorithm/Rest_div_tb.v|
+!i113 1
+R7
+R8
+R9
+n@rest_div_tb
